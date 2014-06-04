@@ -1,0 +1,47 @@
+// bower:scss
+// endbower
+
+
+body{
+  background: url("http://www.brasshatproductions.com/files/web_site_bulletin_board_jpeg.jpg")
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    
+
+.container {
+font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align:center;
+line-height: 1.5em;
+background-image:url("http://www.clker.com/cliparts/t/N/R/n/5/v/post-it-note-hi.png");
+color: blue;
+width: 520px;
+height:500px;
+padding-top:80px;
+margin: 20px auto;
+-webkit-font-smoothing: antialiased;
+}
+
+
+.button{
+width: 500px;
+height: 50px;
+font-size: 20px;
+font-family: inherit;
+line-height: 3em;
+border: 0;
+padding: 6px;
+border: 1px;
+background-color:red;
+}
+
+
+
+
+
+
+
+ 
