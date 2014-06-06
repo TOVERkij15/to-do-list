@@ -2,6 +2,7 @@
 // endbower
 
 
+
 body{
   background: url("http://www.brasshatproductions.com/files/web_site_bulletin_board_jpeg.jpg")
   no-repeat center center fixed; 
@@ -16,27 +17,88 @@ body{
 font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
 text-align:center;
 line-height: 1.5em;
-background-image:url("http://www.clker.com/cliparts/t/N/R/n/5/v/post-it-note-hi.png");
-color: blue;
-width: 520px;
-height:500px;
-padding-top:80px;
+background-image:url("http://www.clipartbest.com/cliparts/M9T/pEn/M9TpEnbiE.png");
+background-repeat:no-repeat;
+color: black;
+width: 720px;
+height:900px;
+padding-top:10px;
 margin: 20px auto;
 -webkit-font-smoothing: antialiased;
 }
+  
+.enter{
+  display: inline-block;
+    font-size: 20px;
+    width: 300px;
+}
 
+
+  input{
+    padding: 5px;
+    width:300px;
+    font-size:20px;
+  }
+}
+  
 
 .button{
-width: 500px;
-height: 50px;
-font-size: 20px;
+width: 40px;
+height:20px;
+font-size: 12px;
 font-family: inherit;
 line-height: 3em;
-border: 0;
 padding: 6px;
-border: 1px;
-background-color:red;
+border: 2px solid black;
+background-color:grey;
 }
+
+
+ 
+ 
+.field {
+    display: inline-block;
+    font-size: 20px;
+    width: 300px;
+ 
+    input {
+        padding: 4px;
+        width: 250px;
+        font-size: 30px;
+ 
+        
+    }
+}
+ 
+
+ 
+.edit-list {
+    background-color: grey;
+    border: 2px solid black;
+}
+ 
+.remove-list {
+    background-color: grey;
+    border: 2px solid black;
+}
+ 
+.submit-list {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.store-list {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
 
 
 
