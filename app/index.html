@@ -12,7 +12,7 @@
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main.scss">
         <!-- endbuild -->
     </head>
     <body>
@@ -21,28 +21,27 @@
         <![endif]-->
 
         
-         <div class="container"> To Do List
+    <div class="header"> To Do List </div>
+    <div class="container"> 
             <div class="enter"> 
                 <input class= "add-list-input"type= "text" placeholder="Add new content here.">
                 <div class="add-list button"> Add </div>
-               
-             </div>
+            </div>
+    </div>
 
-         
-
-        <script type="text/template" class="list-chore">
+         <script type="text/template" class="list-chore">
             <div class="list"> <%= list %> </div>
-            <div class="edit-list button"> Edit </div>
-            <div class="remove-list button"> Delete </div>
+                <div class="edit-list button"> Edit </div>
+                    <div class="remove-list button"> Delete </div>
         </script>
  
  
         <script type="text/template" class="list-edit-chore">
             <div class="field"> <input type="text" value="<%= list %>"> </div>
-            <div class="store-list button">Save</div>
-            <div class="remove-list button">delete</div>
+                <div class="store-list button">Save</div>
+                    <div class="remove-list button">delete</div>
         </script>
-</div>
+    
         
         
     
