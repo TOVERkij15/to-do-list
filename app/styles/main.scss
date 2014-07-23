@@ -4,25 +4,32 @@
 
 
 body {
- background-color: navy;
-}
+    background: url("http://www.kingdomproperty.com/blog/wp-content/uploads/2014/01/thailand2014.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+ }
     
+
 .header{
-    background-color: black;
     color: white;
     font-size: 30px;
     max-width: 100%;
     height: 100px;
-    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 0px;
     text-align: center;
-    border: 2px solid navy;
+    font-size: 50px;
 }
 
 .container {
     font-size: 20px;
-    font-family: 'Shadows Into Light';
+    font-family: 'Indie Flower', cursive;
     line-height: 0.9em;
-    background-image: url("http://media02.hongkiat.com/minimalist-wallpapers/Wooden_Noir_Wallpaper_Pack_by_Shod4n.jpg");
+    background-color: black;
+    opacity: 0.8;
     color: white;
     max-width: 800px;
     max-height: 100%;
@@ -47,28 +54,28 @@ body {
     padding: 2px;
     width:300px;
     font-size:20px;
-    border: 2px solid red;
-    background-color: grey;
+    border: 2px solid teal;
+    background-color: teal;
     color: white;
 }
 
   
 
-.button{
+.button {
     width: 50px;
     height:20px;
     font-size: 18px;
     font-family: inherit;
     line-height: 3em;
-    padding: 20px;
-    background-color: black;
-    color: red;
+    padding: 30px;
+    background-color: white;
+    color: teal;
+    opacity: 0.5;
+    border-radius: 5%;
 }
 
 
- 
- 
-.field {
+ .field {
     display: inline-block;
     font-size: 20px;
     width: 300px;
@@ -88,27 +95,27 @@ body {
 
  
 .edit-list {
-    background-color: black;
-    height: 40px;
-    width: 100px;
+    background-color: teal;
+    height: 30px;
+    width: 90px;
     margin-left: 600px;
     color: white;
     font-size: 20px;
     text-align: center;
-
-
+    border-radius: 5%;
 }
  
 .remove-list {
-    background-color: black;
+    background-color: teal;
     height: 40px;
-    width: 100px;
+    width: 80px;
     margin-top: 10px;
     margin-left: 600px;
     padding-bottom: 10px;
     font-size: 20px;
     color: white;
     text-align: center;
+    border-radius: 5%;
 
 }
  
